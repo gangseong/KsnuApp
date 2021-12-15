@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "444066448560",
+    "project_id": "shadowing-ed2bc",
+    "storage_bucket": "shadowing-ed2bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444066448560:android:4d682948b3b412f41d6775",
+        "android_client_info": {
+          "package_name": "com.example.shadowing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444066448560-ugqm806k0ikto5fra0m2hhn7oadgld7q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shadowing",
+            "certificate_hash": "2d824a2c0b5fb77093f82d68d81b0f9152b03759"
+          }
+        },
+        {
+          "client_id": "444066448560-3dsdu482a0hgipitoif94auruhq0av2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIOMlNhnyh8IAlrmKCLMsgLqsnUY2QMh8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444066448560-3dsdu482a0hgipitoif94auruhq0av2e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFADBC">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ksnu_im1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="107dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="군산대학교\n소개팅 앱"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="군산대학교 모바일 도서관 UI 참고했습니다"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/border_idtext"
+        android:hint="학번"
+        android:paddingLeft="10dp"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/passwordtext"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_idtext"
+        android:hint="패스워드"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="@+id/emailtext"
+        app:layout_constraintStart_toStartOf="@+id/emailtext"
+        app:layout_constraintTop_toBottomOf="@+id/emailtext" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=" 자동로그인"
+        android:textColor="#ffffff"
+        app:layout_constraintEnd_toEndOf="@+id/passwordtext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/passwordtext"
+        app:layout_constraintTop_toBottomOf="@+id/passwordtext" />
+
+    <Button
+        android:id="@+id/mainloginbtn"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="로그인"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/text22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFADBC"
+        android:clickable="true"
+        android:singleLine="false"
+        android:text="앗, 처음이신가요?"
+        android:textColor="#ffffff"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/mainloginbtn"
+        app:layout_constraintEnd_toEndOf="@+id/mainloginbtn"
+        app:layout_constraintStart_toStartOf="@+id/mainloginbtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
